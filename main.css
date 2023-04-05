@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    height: 150px;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 75%;
+    height: 125%;
+    background-color: rgba(238, 182, 199, 0.75);
+    border: 1px rgb(151, 217, 219) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.all-cupcakes-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cupcake-container {
+    border: 2px rgb(205, 233, 181) solid;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+.flavor-frosting {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h5 {
+    margin: 10px 10px 10px 0px;
+}
+
+#cupcake-order {
+    width: 85%;
+}
